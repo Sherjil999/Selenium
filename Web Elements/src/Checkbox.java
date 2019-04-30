@@ -21,6 +21,7 @@ public class Checkbox {
 		checkBoxes.get(0).click();
 		isSelected = checkBoxes.get(0).isSelected();
 		System.out.println(isSelected);
+		System.out.println(isSelected);
 
 	}
 
