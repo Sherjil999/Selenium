@@ -14,7 +14,7 @@ public class Checkbox {
 		
 		List<WebElement> checkBoxes = driver.findElements(By.name(("colors")));
 		
-		boolean isSelected = checkBoxes.get(0).isSelected();
+		boolean isSelected = checkBoxes.get(0).isSelected();//
 		
 		System.out.println(isSelected);
 		
